@@ -1,11 +1,11 @@
-import IconShuriken from '../../assets/images/shuriken.png';
-import IconAboutMe from '../../assets/images/personal-information.png';
-import IconProjects from '../../assets/images/clipboard.png';
-import IconSkills from '../../assets/images/skills2.png';
+import IconShuriken from '../assets/images/shuriken.png';
+import IconAboutMe from '../assets/images/personal-information.png';
+import IconProjects from '../assets/images/clipboard.png';
+import IconSkills from '../assets/images/skills2.png';
 
 const StartMenu = () => {
   return (
-    <section className="h-[4.5rem] overflow-hidden flex items-center border-t-4 border-primary-orange self-end w-full bg-[#245a50]">
+    <section className="h-[4.5rem] overflow-hidden flex items-center border-t-4 border-primary-orange self-end w-full bg-primary-green">
       <div className="flex items-center h-full">
         <div className="flex items-center h-full">
           <button className="w-[5rem] group flex justify-center items-center">

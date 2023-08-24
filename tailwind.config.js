@@ -15,6 +15,7 @@ export default {
       },
       colors: {
         'primary-orange': '#a74318',
+        'primary-green': '#245a50',
       },
     },
   },
