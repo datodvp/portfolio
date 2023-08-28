@@ -1,5 +1,7 @@
+import Window from '../components/Window';
+
 const Projects = () => {
-  return <div>MyProjects</div>;
+  return <Window title="Projects">hello</Window>;
 };
 
 export default Projects;

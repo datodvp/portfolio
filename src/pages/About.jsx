@@ -1,5 +1,7 @@
+import Window from '../components/Window';
+
 const About = () => {
-  return <div>AboutMe</div>;
+  return <Window title="About Me">hello</Window>;
 };
 
 export default About;
