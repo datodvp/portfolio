@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const location = useLocation();
-  const [openStartMenu, setOpenStartMenu] = useState(true);
+  const [openStartMenu, setOpenStartMenu] = useState(false);
 
   return (
     <section className="h-[4.5rem] flex items-center border-t-4 border-primary-orange self-end w-full bg-primary-green">
