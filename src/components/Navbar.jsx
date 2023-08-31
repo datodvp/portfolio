@@ -4,7 +4,7 @@ import IconProjects from '../assets/images/clipboard.png';
 import IconSkills from '../assets/images/skills2.png';
 import { Link, useLocation } from 'react-router-dom';
 
-const StartMenu = () => {
+const Navbar = () => {
   const location = useLocation();
 
   return (
@@ -52,4 +52,4 @@ const StartMenu = () => {
   );
 };
 
-export default StartMenu;
+export default Navbar;

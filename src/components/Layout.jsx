@@ -1,6 +1,6 @@
 import { Link, Outlet, Route } from 'react-router-dom';
 import ImageDesktop from '../assets/images/desktop.png';
-import StartMenu from './StartMenu';
+import Navbar from './Navbar';
 import AboutCard from '../components/Cards/AboutCard';
 import ProjectsCard from '../components/Cards/ProjectsCard';
 import SkillsCard from '../components/Cards/SkillsCard';
@@ -46,7 +46,7 @@ const Layout = () => {
       </section>
 
       <Outlet />
-      <StartMenu />
+      <Navbar />
     </main>
   );
 };
