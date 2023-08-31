@@ -18,7 +18,6 @@ const Layout = () => {
     } else if (location.pathname !== '/' && isHome) {
       setIsHome(false);
     }
-    console.log('sheicvala');
   }, [location]);
 
   return (
