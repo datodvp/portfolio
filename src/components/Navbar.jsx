@@ -2,20 +2,30 @@ import IconShuriken from '../assets/images/shuriken.png';
 import IconAboutMe from '../assets/images/personal-information.png';
 import IconProjects from '../assets/images/clipboard.png';
 import IconSkills from '../assets/images/skills2.png';
+import { AnimatePresence, motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
+import StartMenu from './StartMenu';
+import { useState } from 'react';
 
 const Navbar = () => {
   const location = useLocation();
+  const [openStartMenu, setOpenStartMenu] = useState(true);
 
   return (
-    <section className="h-[4.5rem] overflow-hidden flex items-center border-t-4 border-primary-orange self-end w-full bg-primary-green">
+    <section className="h-[4.5rem] flex items-center border-t-4 border-primary-orange self-end w-full bg-primary-green">
+      <AnimatePresence>{openStartMenu && <StartMenu />}</AnimatePresence>
+
       <div className="flex items-center h-full">
         <div className="flex items-center h-full">
-          <button className="w-[5rem] group flex justify-center items-center">
-            <img
+          <button
+            onClick={() => setOpenStartMenu((v) => !v)}
+            className="w-[5rem] group flex justify-center items-center overflow-hidden"
+          >
+            <motion.img
+              animate={{ rotate: openStartMenu ? 180 : 0 }}
               src={IconShuriken}
               alt="start menu"
-              className="w-[3.12rem] group-focus:animate-spin-forwards group-focus:rotate-180 duration-300"
+              className="w-[3.12rem]"
             />
           </button>
           <Link
