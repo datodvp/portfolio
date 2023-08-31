@@ -6,11 +6,11 @@ const Window = ({ title, children }) => {
     <motion.div
       animate={{ scale: 1 }}
       initial={{ scale: 0 }}
-      className="h-full m-auto w-[73%] z-10"
+      className="h-[90%] m-auto w-[73%] z-10"
     >
       <div className="flex items-center justify-center w-full h-full">
         <div className="w-full h-[80%] bg-white">
-          <div className="flex items-center justify-between w-full px-6 h-14 bg-slate-900">
+          <div className="flex items-center justify-between w-full px-6 h-[7.5%] bg-slate-900">
             <h2 className="text-3xl text-white">{title}</h2>
             <Link to="/">
               <div className="h-[70%] cursor-pointer rounded-xl w-10 bg-red-600 hover:bg-red-400 flex justify-center items-center text-white font-black text-3xl">
@@ -18,7 +18,7 @@ const Window = ({ title, children }) => {
               </div>
             </Link>
           </div>
-          <section className="h-[41.5rem] overflow-auto">{children}</section>
+          <section className="h-[92.5%] overflow-auto">{children}</section>
         </div>
       </div>
     </motion.div>
