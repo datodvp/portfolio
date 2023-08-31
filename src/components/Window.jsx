@@ -18,7 +18,7 @@ const Window = ({ title, children }) => {
               </div>
             </Link>
           </div>
-          <section>{children}</section>
+          <section className="h-[41.5rem] overflow-auto">{children}</section>
         </div>
       </div>
     </motion.div>
