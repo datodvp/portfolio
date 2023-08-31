@@ -5,10 +5,10 @@ import ImageHtml from '../assets/images/html.png';
 import ImageCss from '../assets/images/css.png';
 import ImageReact from '../assets/images/react.png';
 import ImageGit from '../assets/images/git.png';
-import ImageTailwind from '../assets/images/tailwind.png';
+import ImageTailwind from '../assets/images/tailwind.svg';
 import ImageVue from '../assets/images/vue.png';
 import ImagePhp from '../assets/images/php.png';
-import ImageLaravel from '../assets/images/laravel.png';
+import ImageLaravel from '../assets/images/laravel.svg';
 
 const Skills = () => {
   return (
