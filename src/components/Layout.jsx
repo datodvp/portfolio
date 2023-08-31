@@ -22,7 +22,7 @@ const Layout = () => {
 
   return (
     <main
-      className="flex flex-col w-screen h-screen bg-center bg-no-repeat bg-cover"
+      className="relative flex flex-col w-screen h-screen overflow-hidden bg-center bg-no-repeat bg-cover"
       style={{ backgroundImage: `url(${ImageDesktop})` }}
     >
       <section
