@@ -6,7 +6,7 @@ const Window = ({ title, children }) => {
     <motion.div
       animate={{ scale: 1 }}
       initial={{ scale: 0 }}
-      className="h-[90%] m-auto w-[100%] md:w-[73%] z-10"
+      className="h-[90%] m-auto w-[100%] md:w-[95%] lg:w-[73%] z-10"
     >
       <div className="flex justify-center w-full h-full md:items-center">
         <div className="w-full h-full md:h-[80%] bg-white">
