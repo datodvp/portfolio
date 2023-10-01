@@ -54,7 +54,39 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-green-700 "></div>
+        <div className="w-full bg-slate-200">
+          <div className="flex flex-col w-full h-full gap-5 p-10">
+            <h1 className="text-4xl font-medium">
+              Hi I am <span className="text-orange-600">Davit Gagua</span>
+            </h1>
+            <p className="text-xl">
+              I am self-taught developer and I'm trying to become as good of a
+              developer as I can.
+            </p>
+            <p className="text-xl">
+              My road to web development was when i first coded in C++, this is
+              what got my interest and after that i started learning more and
+              more until I end up learning{' '}
+              <span className="font-bold">Javascript</span>.
+            </p>
+            <p className="text-xl">
+              On that I added some HTML and CSS and i was creating games for fun
+              in Canvas.
+            </p>
+            <p className="text-xl">
+              Next step was when I heard about{' '}
+              <span className="font-bold">ReactJS</span> and understood that it
+              was one of the most demanded frameworks and learnt it.
+            </p>
+            <p className="text-xl">
+              I had bootcamp of
+              <span className="font-bold"> Laravel and VueJS</span> and learnt
+              that portfolio can help me to show off my skills. It might make it
+              easy to land a job, so this is where I got this idea to create
+              this portfolio, which you read right now on :D
+            </p>
+          </div>
+        </div>
       </div>
     </Window>
   );
