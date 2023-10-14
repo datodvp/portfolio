@@ -36,13 +36,13 @@ const Skills = () => {
           <SkillDescription
             image={ImageVue}
             name="Vue"
-            description="This framework was part of my Internship, and I believe I can build very complex applications."
+            description="This framework was part of my Bootcamp, and I believe I can build very complex applications."
             color="bg-green-300"
           />
           <SkillDescription
             image={ImageLaravel}
             name="Laravel"
-            description="Laravel was part of my internship and I really enjoyed that. It was easy to learn and I believe i can build REST API's and also full fledged WEB sites."
+            description="Laravel was part of my Bootcamp and I really enjoyed that. It was easy to learn and I believe i can build REST API's and also full fledged WEB sites."
             color="bg-red-200"
           />
           <SkillDescription

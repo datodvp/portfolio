@@ -37,15 +37,7 @@ const Navbar = () => {
           >
             <img src={IconAboutMe} alt="start menu" className="w-[3.12rem]" />
           </Link>
-          <Link
-            to="/projects"
-            className={`${
-              location.pathname === '/projects' &&
-              'bg-green-900 border-b-4 border-primary-orange'
-            } w-[5rem] hover:bg-green-800 focus:bg-green-900 focus:border-b-4 h-full hover:border-b-4 flex justify-center items-center border-primary-orange`}
-          >
-            <img src={IconProjects} alt="start menu" className="w-[3.12rem]" />
-          </Link>
+
           <Link
             to="/skills"
             className={`${
@@ -54,6 +46,16 @@ const Navbar = () => {
             } w-[5rem] hover:bg-green-800 focus:bg-green-900 focus:border-b-4 h-full hover:border-b-4 flex justify-center items-center border-primary-orange`}
           >
             <img src={IconSkills} alt="start menu" className="w-[3.12rem]" />
+          </Link>
+
+          <Link
+            to="/projects"
+            className={`${
+              location.pathname === '/projects' &&
+              'bg-green-900 border-b-4 border-primary-orange'
+            } w-[5rem] hover:bg-green-800 focus:bg-green-900 focus:border-b-4 h-full hover:border-b-4 flex justify-center items-center border-primary-orange`}
+          >
+            <img src={IconProjects} alt="start menu" className="w-[3.12rem]" />
           </Link>
         </div>
         <div></div>

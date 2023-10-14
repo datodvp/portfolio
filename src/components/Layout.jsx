@@ -36,12 +36,12 @@ const Layout = () => {
           <AboutCard />
         </Link>
 
-        <Link to="/projects">
-          <ProjectsCard />
-        </Link>
-
         <Link to="/skills">
           <SkillsCard />
+        </Link>
+
+        <Link to="/projects">
+          <ProjectsCard />
         </Link>
       </section>
 

@@ -1,4 +1,4 @@
-import ImageAbout from '../../assets/images/creativity.png';
+import ImageFreelancer from '../../assets/images/freelancer.png';
 import { useLocation } from 'react-router-dom';
 import Card from './Card';
 import { useState } from 'react';
@@ -13,7 +13,9 @@ const AboutCard = () => {
     setIsChosen(false);
   }
 
-  return <Card image={ImageAbout} text="About Me" isChosen={isChosen}></Card>;
+  return (
+    <Card image={ImageFreelancer} text="About Me" isChosen={isChosen}></Card>
+  );
 };
 
 export default AboutCard;
