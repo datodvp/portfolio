@@ -29,7 +29,7 @@ const Layout = () => {
         className={
           'absolute top-[50%] duration-300 left-[50%] translate-x-[-50%] w-full translate-y-[-50%] flex gap-11 flex-wrap justify-center ' +
           (!isHome &&
-            'translate-x-[-92%] translate-y-[-70%] flex-col items-center scale-50')
+            'translate-x-[-92%] top-[40%] flex-col items-center scale-50')
         }
       >
         <Link to="/about">

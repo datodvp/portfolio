@@ -18,7 +18,7 @@ const About = () => {
   };
   return (
     <Window title="About Me">
-      <div className="flex h-full">
+      <div className="flex flex-col items-center h-full sm:items-stretch sm:flex-row">
         <div className="w-[30%] mt-5 p-4  min-w-fit">
           <div className="flex flex-col items-center gap-3 m-auto">
             <img
@@ -54,7 +54,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-slate-200">
+        <div className="w-full overflow-auto bg-slate-200">
           <div className="flex flex-col w-full h-full gap-5 p-10">
             <h1 className="text-4xl font-medium">
               Hi I am <span className="text-orange-600">Davit Gagua</span>
