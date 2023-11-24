@@ -10,7 +10,7 @@ import ImageVue from '../assets/images/vue.png';
 import ImagePhp from '../assets/images/php.png';
 import ImageLaravel from '../assets/images/laravel.svg';
 import IconGithub from '../assets/images/github.svg';
-import MovieQuotes from '../assets/images/projects/movie-quotes.jpg'
+import MovieQuotes from '../assets/images/projects/movie-quotes.png'
 
 const Projects = () => {
   const data = new Map([
