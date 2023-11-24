@@ -29,9 +29,7 @@ const About = () => {
             <div className="flex flex-col gap-3">
               <CopyToClipboard onCopy={copyEmail} text="datogagua98@gmail.com">
                 <div
-                  className={`${
-                    copiedEmail && 'bg-green-400 hover:bg-green-400'
-                  } flex items-center w-full gap-3 px-3 duration-150 border border-black cursor-pointer py-7 h-11 hover:bg-gray-300`}
+                  className="flex items-center w-full gap-3 px-3 duration-150 border border-black cursor-pointer py-7 h-11 hover:bg-gray-300"
                 >
                   <img src={ImageGmail} alt="gmail" className="h-8" />
                   <p>datogagua98@gmail.com</p>
