@@ -16,7 +16,7 @@ const Projects = () => {
   const data = new Map([
     ['Movie Quotes', {
       title: "Movie quotes",
-      img: "../assets/images/projects/Movie-quotes.png",
+      img: MovieQuotes,
       github: {
         front: "https://github.com/datodvp/movie-quotes-front",
         back: "https://github.com/datodvp/movie-quotes-back",
@@ -69,7 +69,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='flex justify-center'>
-            {data.get(chosenProject).img && <img src={MovieQuotes} width={300} height={150} alt="" />}
+            {data.get(chosenProject).img && <img src={data.get(chosenProject).img} width={300} height={150} alt="" />}
           </div>
           <p className='mt-3 font-semibold'>{data.get(chosenProject).short_desc}</p>
           <p className='text-sm mt-3'>{data.get(chosenProject).desc}</p>
