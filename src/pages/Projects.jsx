@@ -37,7 +37,7 @@ const Projects = () => {
       github: 'https://github.com/datodvp/resume-app.git',
       live: 'https://resume-creator.dato.com.ge',
       short_desc: 'formik, yup, sass and complex forms',
-      desc: 'Interactive and fun resume creator with annoying validations and complex forms.',
+      desc: 'You can Create and Export resume. This app is Fun and interactive, with complex validations and code ofcourse :)',
       stack: [ImageReact, ImageHtml, ImageJavascript],
       icon: IconResumeCreator,
     },
